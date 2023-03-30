@@ -66,3 +66,40 @@ button{
 input,select{
     font-size: 20px;
 }
+
+
+
+ .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    }
+  
+  .col {
+       width: 30%;
+       margin-bottom: 30px;
+      }
+  
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+/*      list-style: none;
+ */       padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+        }
+  
+     
+  ul li a {
+    color: #313030;
+    text-decoration: none;
+   }
+  
+   ul li a:hover {
+    color: rgb(31, 30, 30);
+  }
